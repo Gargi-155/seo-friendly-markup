@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic SEO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SEO Friendly Markup Component | Frontend Internship</title>
+  <meta name="description" content="A reusable SEO-friendly markup component built using semantic HTML, structured data, accessibility best practices, and clean frontend architecture." />
+  <link rel="canonical" href="https://yourusername.github.io/seo-friendly-markup/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SEO Friendly Markup Component" />
+  <meta property="og:description" content="Semantic HTML + SEO + Accessibility frontend component." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io/seo-friendly-markup/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SEO Friendly Markup Component" />
+  <meta name="twitter:description" content="Reusable SEO-friendly frontend component built with HTML, CSS, and JS." />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SEO Friendly Markup Component",
+    "description": "A frontend component demonstrating SEO-friendly semantic markup.",
+    "author": {
+      "@type": "Person",
+      "name": "Gargi"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav aria-label="Main Navigation">
+    <ul class="nav-list">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#article">Article</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <section id="overview" class="section">
+    <h1>SEO Friendly Markup</h1>
+    <p>
+      This page demonstrates how to build a reusable SEO-optimized frontend component
+      using semantic HTML, accessibility best practices, and structured metadata.
+    </p>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Key SEO Features</h2>
+    <ul>
+      <li>Semantic HTML5 elements</li>
+      <li>Accessible ARIA landmarks</li>
+      <li>Proper heading hierarchy</li>
+      <li>Meta tags and structured data</li>
+      <li>Progressive enhancement with JavaScript</li>
+    </ul>
+  </section>
+
+  <article id="article" class="article">
+    <header>
+      <h2>Why Semantic Markup Matters</h2>
+      <p class="meta">
+        <time datetime="2026-01-30">January 30, 2026</time> ·
+        <span>By Gargi</span>
+      </p>
+    </header>
+
+    <section>
+      <h3>Search Engine Understanding</h3>
+      <p>
+        Search engines rely on semantic markup to understand page structure,
+        content importance, and relationships between sections.
+      </p>
+    </section>
+
+    <section>
+      <h3>Accessibility & UX</h3>
+      <p>
+        Screen readers, keyboard navigation, and assistive technologies
+        depend heavily on correct semantic structure.
+      </p>
+    </section>
+  </article>
+
+  <section id="faq" class="section" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Frequently Asked Questions</h2>
+
+    <details>
+      <summary>Is JavaScript required for SEO?</summary>
+      <p>No. SEO should work even if JavaScript fails. JS enhances, not replaces HTML.</p>
+    </details>
+
+    <details>
+      <summary>Can this be reused?</summary>
+      <p>Yes. This structure works for blogs, landing pages, and documentation.</p>
+    </details>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Gargi. Built for Frontend Internship Task.</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
