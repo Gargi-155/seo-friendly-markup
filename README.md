@@ -17,3 +17,4 @@ semantic HTML, structured data, accessibility best practices, and clean CSS.
 - SEO Best Practices
 
 ## LIVE DEMO 
+https://gargi-155.github.io/seo-friendly-markup/
